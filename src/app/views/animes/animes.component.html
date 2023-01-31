@@ -1,0 +1,12 @@
+<section class="main-section">
+    <article class="d-flex justify-content-center" >
+        <h1>Search Your Fav Anime</h1>  
+    </article>
+
+    <article class="d-flex flex-wrap justify-content-center animes">
+        <app-cards 
+        *ngFor="let item of animeList"
+        [animeItem]="item"
+        ></app-cards>
+    </article> 
+</section>
