@@ -11,7 +11,36 @@
           (click)="onBtnSubmit()"
           class="btn btn-outline-success my-2 my-sm-0 button" type="submit">Search</button>
         </section>
-  
     </nav>
 </section>
+<!-- <div mdbDropdown class="dropdown">
+  <a
+    class="btn btn-primary dropdown-toggle"
+    role="button"
+    id="dropdownMenuLink"
+    mdbDropdownToggle
+    aria-expanded="false"
+  >
+    Dropdown link
+  </a>
+  <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div> -->
+<div class="dropdown">
+  <a class="btn btn-primary dropdown-toggle"
+  aria-expanded="false"
+  role="button"
+  >Searched animes</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="">Naruto</a></li>
+  </ul>
+</div>
 
+  <select>
+      <option value="actual value 1">Naruto</option>
+      <option value="actual value 2">One Piece</option>
+      <option routerLinkActive="active" routerLink="https://api.jikan.moe/v4/anime?q=Bleach&sfw" value="actual value 3">Bleach</option>
+  </select>
