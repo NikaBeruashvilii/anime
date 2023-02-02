@@ -11,8 +11,13 @@
           (click)="onBtnSubmit()"
           class="btn btn-outline-success my-2 my-sm-0 button" type="submit">Search</button>
         </section>
+        <!-- <section>
+          <a routerLink="allAnime"
+          class="btn btn-outline-success my-2 my-sm-0 button"
+          >All Anime</a>
+        </section> -->
         <section>
-          <button mat-button [matMenuTriggerFor]="menu">Most Searched Animes</button>
+          <button class="btn btn-outline-success my-2 my-sm-0 button" mat-button [matMenuTriggerFor]="menu">Most Searched Animes</button>
           <mat-menu #menu="matMenu">
             <a mat-menu-item>Naruto</a>
             <a mat-menu-item>One Piece</a>
