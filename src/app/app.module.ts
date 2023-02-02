@@ -10,6 +10,8 @@ import { CardsComponent } from './shared_components/cards/cards.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AnimesComponent } from './views/animes/animes.component';
 import { NavigationComponent } from './header/navigation/navigation.component';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { NavigationComponent } from './header/navigation/navigation.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
