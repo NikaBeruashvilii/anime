@@ -11,7 +11,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AnimesComponent } from './views/animes/animes.component';
 import { NavigationComponent } from './header/navigation/navigation.component';
 import {MatMenuModule} from '@angular/material/menu';
-import { AllAnimeComponent } from './views/all-anime/all-anime.component';
 import { NarutoComponent } from './views/naruto/naruto.component';
 import { OnePieceComponent } from './views/one-piece/one-piece.component';
 import { BleachComponent } from './views/bleach/bleach.component';
@@ -23,7 +22,6 @@ import { BleachComponent } from './views/bleach/bleach.component';
     CardsComponent,
     AnimesComponent,
     NavigationComponent,
-    AllAnimeComponent,
     NarutoComponent,
     OnePieceComponent,
     BleachComponent
